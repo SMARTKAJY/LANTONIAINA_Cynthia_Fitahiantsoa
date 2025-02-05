@@ -1,0 +1,23 @@
+Algorithme rangerDesLivres
+Début
+écrire(" Nous avons une pile de 5 livres de tailles differentes mélangés. Rangons ces livres du plus grand au plus petit:\n")
+écrire ("Prenons tous les livres et mettons-les sur une table\n") 
+écrire ("Examinons chaque livre et notons leur taille\n")
+écrire ("Commençons par ce qui est le plus grand et plaçons-le en premier dans une étagère\n")
+écrire ("Continuous avec ceux du deuxième plus grand  et plaçons-le à côté du premier livre\n")
+écrire ("Prenons la troisième et mettons-le à côté du deuxième livre et ainsi de suite jusqu'au plus petit livre\n")
+Écrire ("Et  c'est ainsi que l'on range des livres")
+Fin
+
+Algorithme brosserLesDents 
+Début
+écrire("Voici les étapes à suivre quand je brosse mes dents :\n")
+écrire ("Avant tous,il faut de l'eau, du dentifrice et du brosse à dents \n") 
+écrire ("1:D'abord, Je mets du dentifrice sur mon brosse à dents\n")
+écrire ("2:Ensuite, je mets mon brosse à dents dans ma bouche et Je frotte du haut en bas mes dents pendant environ 5 minutes\n")
+écrire ("3:Après, Je rince ma bouche et la brosse avec de l'eau pour eliminer la dentifrice \n")
+écrire ("Et c'est ainsi que Je fais Quand je brosse mes dents. ")
+Fin
+
+
+
