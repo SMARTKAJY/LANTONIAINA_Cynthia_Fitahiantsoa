@@ -1,0 +1,26 @@
+I-Pour mieux trouver un mot dans un dictionnaire, voici les étapes à suivre:
+(Ici, on parle d'un livre de dictionnaire)
+1.Prenez votre dictionnaire et ouvrez-le
+2.Veuillez identifier puis chercher la premiere lettre du mot que vous voulez cherchez à l'ordre alphabetique
+3.Tournez la page jusqu’au section voulu
+4.Cherchez la deuxieme lettre de votre mot en utilisant la methode précédente et ainsi de suite jusqu’au dernier lettre (utiliser la recherche de mot par mot)
+5.Une fois le mot trouvé, lisez bien sa definition et les note qu'elle contienne
+
+Comparaison de la recherche sequentielle et la recherche dichotomique:
+.La recherche sequentielle prend un peu de temps pour donner la response, simple à mettre en oeuvre et ne necessite pas de configuration préalable au donnée
+. Tandis que la recherche dichotomique est un peu plus rapide, plus complexes en mettre à l'oeuvre et nécessite de gérer les indices
+
+
+II-Denombrement
+Nous avons un sac contenant des pieces de differents valeurs (1€,2€,5€)
+Pour rendre la monnaie de 12 € avec le moins de pieces possibles, voici les étapes à faire
+  *Il faut choisir deux pieces de 5€
+  *Et une piece de 2€
+Au total, cela vaut 12€, avec seulement 3pieces
+
+Pour generaliser cette methode pour n'importe quel montant, voici les étapes :
+. Il faut d'abord identifier les valeurs des pieces disponible
+. Il faut choisir la piece à plus grand valeur possible afin de reduire le montant restant plus rapidement
+.Une fois le nombre de plus grand piece épuisé, répeter avec les valeurs moins élevées et ainsi de suite jusqu’à ce que vous atteignez le montant exacte. 
+
+
