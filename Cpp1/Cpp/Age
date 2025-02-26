@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int age;
+    cout << "Veuillez entrez votre âge: " << endl;
+    cin>>age;
+    if (age<18) {
+        cout <<"Vous êtes mineurs! "<< endl;
+    }
+    else if (age>=18 & & age< 60) {
+        cout <<"Vous êtes adultes! "<< endl;
+    }
+    else {
+        cout << "Vous êtes senior! " << endl;
+    }
+    return 0;
+}
