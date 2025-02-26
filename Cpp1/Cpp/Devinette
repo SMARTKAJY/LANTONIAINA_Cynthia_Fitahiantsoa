@@ -1,0 +1,26 @@
+#include<iostream>
+
+int main(){
+int nb_a_recherche,proposition,milieu,max,min;
+nb_a_recherche=62;
+proposition =0;
+min=1;
+max=100;
+do{
+std::cout <<"Entrez un nombre entre 1 et 100 :"<<std::endl ;
+std::cin>>proposition;
+milieu=(min+max )/2; 
+  if(proposition <nb_a_recherche){
+  milieu=min-1; 
+  std::cout<<"Trop petit! "<<std::endl ;}
+  else{
+   if(proposition >nb_a_recherche ){
+  milieu=max+1;  
+  std::cout<<"Trop grand!"<<std::endl ;}
+  else{
+  std::cout <<"Felicitations, vous avez trouvez le nombre! "<<std::endl ; }
+}
+}
+while(nb_a_recherche!=proposition);
+
+}
