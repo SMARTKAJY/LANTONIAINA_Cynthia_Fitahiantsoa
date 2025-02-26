@@ -1,0 +1,16 @@
+Algorithme âge
+Variable
+age:entier
+Début
+Écrire ("Veuillez entrer votre âge :")
+Lire (age )
+Si (age<18) alors
+  Écrire ("Vous êtes mineurs! ")
+Sinon
+  Si(18<age et age <60) alors
+   Écrire ("Vous êtes adultes! ")
+   Sinon
+   Écrire ("Vous êtes senior! ")
+   FinSi
+FinSi
+Fin
