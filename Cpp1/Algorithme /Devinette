@@ -1,0 +1,24 @@
+Algorithme devinette
+Variable 
+nb_a_recherche, proposition, milieu, max, min:entier
+Début
+nb_a_recherche=62
+proposition =0
+min=1
+max=100
+Répéter 
+Écrire ("Entrez un nombre entre 1 et 100 :")
+Lire (proposition)
+milieu=(min+max )/2 
+  Si (proposition <nb_a_recherche)alors
+  milieu=min-1 
+  Écrire ("Trop petit! ")
+  Sinon 
+  Si (proposition >nb_a_recherche )alors
+  milieu=max+1  
+  Écrire ("Trop grand!")
+  Sinon
+  Écrire ("Felicitations, vous avez trouvez le nombre! ")
+  FinSi FinSi 
+Jusqua(nb_a_recherche=proposition)
+  Fin 
