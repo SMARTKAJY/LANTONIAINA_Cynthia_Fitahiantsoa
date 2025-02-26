@@ -1,0 +1,15 @@
+Algorithme produit 
+Variables
+i:entier
+n:entier 
+produit:entier 
+Début
+Écrire ("Veuillez entrer un nombre de votre choix :")
+Lire (n)
+Pour i de 1 à 10
+Faire
+produit=n*i
+Écrire (n , "*", i , "=", produit)  
+FinPour 
+Fin
+
