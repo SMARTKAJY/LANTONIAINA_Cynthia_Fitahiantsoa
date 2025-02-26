@@ -1,0 +1,15 @@
+#include<iostream>
+
+int main(){
+    int i=0;
+    int n;
+    int p;
+    std::cout<<"Veuillez entrer un nombre de votre choix :"<<std::endl ;
+    std::cin>>n;
+    for (int i=1; i<10; i++) {
+        p=n*i;
+       std:: cout<<n<<"*"<<i<<"="<<p<<std::endl;
+    }
+    return 0 ;
+}
+
